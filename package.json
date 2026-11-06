@@ -1,0 +1,20 @@
+{
+  "name": "nexplay-custom-video-player",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "vitest run && node --test server/database.test.js",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "vite": "^6.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0",
+    "jsdom": "^25.0.0"
+  },
+  "type": "module"
+}
